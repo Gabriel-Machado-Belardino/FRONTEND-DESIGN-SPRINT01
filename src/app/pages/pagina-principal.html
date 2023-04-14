@@ -15,11 +15,12 @@
       <!-- Menu de navegação -->
       <div class="layout">
         <a href="#QuemSomos">Quem somos</a>
-        <a href="#ContraOQueLutamos">Contra o que lutamos?</a>
+        <a href="#ContraOQueLutamos">Nossa luta</a>
         <a href="#OQueFalta">O que falta?</a>
         <a href="#NossoObjetivo">Objetivo</a>
+        <a href="#ComoFaremosIsso">Solução</a>
         <a href="#Parcerias">Parcerias</a>
-        <a href="#"></a>
+        
       </div>
     </nav>
   </header>
@@ -29,10 +30,11 @@
 
       <tr style="background-color: #e1eff2;" id="QuemSomos">
         <!--PRIMEIRA LINHA-->
-        <td><img src="/src/imagens/logo-inclui+-removebg-preview.png" width="60%" alt="Imagem da nossa logo escrito Inclui+"></td>
+        <td><img src="/src/imagens/logo-inclui+-removebg-preview.png" width="60%"
+            alt="Imagem da nossa logo escrito Inclui+"></td>
         <td class="text">
           <center>
-            <h2>Olá, nós somos a Inclui+</h2><br>
+            <h1>Olá, nós somos a Inclui+</h1><br>
           </center>
           <p>Seja bem-vindo ao nosso espaço, aqui nós acreditamos que todos devem ter acesso aos mesmos serviços,
             independentemente das suas limitações físicas. Foi por isso que nos unimos e decidimos criar o Inclui+.
@@ -46,7 +48,7 @@
       <tr id="ContraOQueLutamos" style="background-color: rgba(255, 255, 255, 0.3);">
         <!--SEGUNDA LINHA-->
         <td class="text">
-          <h2>Contra o que lutamos?</h2><br>
+          <h1>Contra o que lutamos?</h1><br>
           <p>A inclusão de pessoas com deficiência é um tema crucial no Brasil e em todo o mundo. Apesar de muitos
             avanços terem sido alcançados nas últimas
             décadas, ainda há muito a ser feito para garantir que as pessoas com deficiência sejam totalmente incluídas
@@ -61,7 +63,8 @@
             sinais.
           </p>
         </td>
-        <td><img src="/src/imagens/contraoquelutamos-removebg-preview.png" width="40%" alt="Desenho de uma mão de punho fechado para cima"></td>
+        <td><img src="/src/imagens/contraoquelutamos-removebg-preview.png" width="40%"
+            alt="Desenho de uma mão de punho fechado para cima"></td>
       </tr>
 
       <!-- TERCEIRA LINHA -->
@@ -71,7 +74,7 @@
         </td>
         <td class="text">
           <center>
-            <h2>O que falta?</h2><br>
+            <h1>O que falta?</h1><br>
           </center>
           <p>
             Quando as instalações e serviços não são projetados para atender às necessidades das pessoas com
@@ -94,9 +97,26 @@
       <tr style="background-color: #e1eff2" id="NossoObjetivo">
         <td class="text">
           <center>
-            <h2>Nosso objetivo</h2><br>
+            <h1>Nosso objetivo</h1><br>
           </center>
-          <p>Criar um aplicativo que mapeie estabelecimentos que ofereçam suporte para pessoas com deficiência. Além
+          <h3>Queremos transformar vidas por meio da inovação e tecnologia, fazendo da inclusão e acessibilidade uma
+            realidade para todos</h3>
+        </td>
+        <td>
+          <img src="/src/imagens/nossoobjetivo-removebg-preview.png" width="60%" alt="Desenha de um alvo com flechas">
+        </td>
+      </tr>
+
+      <!-- QUINTA LINHA -->
+      <tr style="background-color: #e1eff2" id="ComoFaremosIsso">
+        <td>
+          <img src="/src/imagens/mapa.png" width="60%" alt="Desenha de um alvo com flechas">
+        </td>
+        <td class="text">
+          <center>
+            <h1>Como faremos isso?</h1><br>
+          </center>
+          <p>Criaremos um aplicativo que mapeie estabelecimentos que ofereçam suporte para pessoas com deficiência. Além
             disso, o
             aplicativo contaria com um sistema de descontos oferecidos pelas empresas, que buscam aumentar o número de
             clientes e
@@ -106,19 +126,13 @@
             cardápio em braile,
             elevadores ou rampas, se permite a entrada de cães guia, etc.</p>
         </td>
-        <td>
-          <img src="/src/imagens/nossoobjetivo-removebg-preview.png" width="60%" alt="Desenha de um alvo com flechas">
-        </td>
       </tr>
 
-      <!-- QUINTA LINHA -->
+      <!-- SEXTA LINHA -->
       <tr id="Parcerias" style="background-color: rgba(255, 255, 255, 0.3);">
-        <td>
-          <img src="/src/imagens/parcerias-removebg-preview.png" width="60%" alt="desenho de duas pessoas se apoiando uma na outra">
-        </td>
         <td class="text">
           <center>
-            <h2>Parcerias</h2><br>
+            <h1>Parcerias</h1><br>
           </center>
           <p>Ao fazer uma parceria com o Inclui+, as empresas poderiam disponibilizar informações sobre os recursos de
             acessibilidade que
@@ -132,6 +146,10 @@
             experiência de seus
             clientes, a empresa poderá se beneficiar com um aumento de lucro e de visibilidade no mercado.
           </p>
+        </td>
+        <td>
+          <img src="/src/imagens/parcerias-removebg-preview.png" width="60%"
+            alt="desenho de duas pessoas se apoiando uma na outra">
         </td>
       </tr>
     </table>
@@ -149,10 +167,11 @@
       margin: 0;
       padding: 0;
     }
-    body
-    {
+
+    body {
       background-color: rgb(167, 228, 241);
     }
+
     /*RESET TABLE*/
     table {
       display: block;
@@ -170,10 +189,12 @@
       -webkit-border-vertical-spacing: 0;
     }
 
-    .text{
-      transition: transform 0.8s; /* Animation */
+    .text {
+      transition: transform 0.8s;
+      /* Animation */
     }
-    .text:hover{
+
+    .text:hover {
       transform: scale(1.05);
     }
 
